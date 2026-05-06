@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <main>
+      <h1>Регистрация</h1>
+      <section>Уже есть аккаунт? <a href="/login">Войти</a></section>
+      <form action="#">
+        <div>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Имя пользователя"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Имя"
+          />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Фамилия"
+          />
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          Я прочитал и принимаю <a href="/conditions">Условия использования</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
